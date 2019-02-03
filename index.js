@@ -19,5 +19,6 @@ function increaseRankBy(n){
   for(var i = 0;i<ele.length;i++){
     temp = parseInt(ele[i].innerHTML) + n
     ele[i].innerHTML = temp.toString();
+ 
   }
 }
